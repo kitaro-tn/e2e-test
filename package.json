@@ -4,13 +4,14 @@
   "description": "End to end testing",
   "main": "index.js",
   "scripts": {
-    "test": "node RunSpec.js"
+    "test": "protractor spec/conf.js"
   },
   "author": "Tatsunori Nishikori",
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^2.9.0",
     "mysql": "^2.15.0",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "protractor": "^5.3.0"
   }
 }
