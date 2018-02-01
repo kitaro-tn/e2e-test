@@ -4,7 +4,7 @@
   "description": "End to end testing",
   "main": "index.js",
   "scripts": {
-    "test": "protractor spec/conf.js"
+    "test": "node RunSpec.js"
   },
   "author": "Tatsunori Nishikori",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "jasmine": "^2.9.0",
     "mysql": "^2.15.0",
     "phantomjs": "^2.1.7",
-    "protractor": "^5.3.0"
+    "protractor": "^5.3.0",
+    "selenium": "^2.20.0"
   }
 }
